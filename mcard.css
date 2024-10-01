@@ -594,7 +594,8 @@ mobile view
 .flip-card-backM h3 {
     margin: 0;
     color: rgb(2, 88, 194);
-    text-align: left; /* Text aligned to the left */
+    text-align: left;
+	font-size: 15px; /* Text aligned to the left */
 }
 
 .flip-card-backM .GoM {
