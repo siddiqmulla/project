@@ -519,6 +519,7 @@ body {
 }
 
 .Go:hover {
+    /* background-color: rgba(255, 0, 0, 0.927); */
     background-color: rgba(82, 255, 200, 0.927);
     color: rgb(0, 0, 0);
 }
@@ -574,14 +575,6 @@ mobile view
 .flip-card-frontM {
     width: 50%; /* Image takes 50% of the width */
 }
-
-.flip-card-frontM img {
-    width: 100%;
-    height: 100%; /* Image should fill the space */
-    object-fit: cover; /* Ensures the image covers the area */
-    border-radius: 10px 0 0 10px; /* Rounded corners for the left side of the image */
-}
-
 .flip-card-backM {
     width: 50%; /* Text takes 50% of the width */
     padding: 20px;
@@ -906,12 +899,24 @@ mobile view end
         height: auto;
 		width: 90%;
     }
-
-    .flip-card-frontM,
-    .flip-card-backM {
+    .flip-card-frontM{
         width: 100%; /* Take full width on smaller screens */
         height: auto; /* Adjust height accordingly */
     }
+    .flip-card-backM {
+        width: 100%; /* Take full width on smaller screens */
+        height: auto;
+		margin-left: -8px; /* Adjust height accordingly */
+    }
+	.Mimg2{
+		width: 190px;
+		height: 190px;
+		border-radius: 10px;
+		background: #ffffff;
+		margin-top: 4px;
+		object-fit: contain;
+		
+	}
 
     .flip-card-frontM img {
         border-radius: 10px 10px 0 0;
@@ -920,6 +925,7 @@ mobile view end
         margin-left: 3%;
  /* Adjust border radius for top image */
     }
+
 	.web-view{
 		display: none;
 	}
@@ -932,6 +938,7 @@ mobile view end
 	.whp img{
 		width: 40px;	
 	}
+	
 	
 }
 @media(max-width: 400px) {
