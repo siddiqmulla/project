@@ -451,6 +451,9 @@ body {
     flex-wrap: wrap; 
     
 }
+.line-text{
+	font-size: 22px;
+}
 
 .flip-card {
     background-color: transparent;
@@ -495,6 +498,7 @@ body {
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
+	justify-content: center;
     border: rgb(228, 228, 228) solid 2px;
 }
 
@@ -515,7 +519,7 @@ body {
     padding: 10px 10px;
     cursor: pointer;
     width: 70px;
-    margin-left: 65px;
+    /* margin-left: 65px; */
 }
 
 .Go:hover {
@@ -581,13 +585,13 @@ mobile view
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .flip-card-backM h3 {
     margin: 0;
     color: rgb(2, 88, 194);
-    text-align: left;
+    text-align: center;
 	font-size: 15px; /* Text aligned to the left */
 }
 
