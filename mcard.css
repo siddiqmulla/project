@@ -489,8 +489,12 @@ body {
 .flip-card-front {
     background-color:  #d5d5d565;
     color: black;
-    
     border: rgb(228, 228, 228) solid 1px;
+}
+.flip-card-front i {
+   font-size: 100px;
+   align-items: center;
+   vertical-align: calc(50% - 1.65em);
 }
 .flip-card-back {
     background: linear-gradient(71deg,#ffffff, #ffffff, #ffffff);
@@ -501,6 +505,11 @@ body {
 	justify-content: center;
     border: rgb(228, 228, 228) solid 2px;
 }
+.flip-card-back i {
+	font-size: 100px;
+	align-items: center;
+	vertical-align: calc(50% - 1em);
+ }
 
 .img1 {
     width: 190px;
