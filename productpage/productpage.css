@@ -439,7 +439,7 @@ body {
 	min-height: 100%;
 	padding: 10px 20px;
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 .product-d-image {
@@ -563,11 +563,6 @@ hr {
 		display: flex;
 	}
 
-	.product-main-image img {
-		 /* margin-left: 100px; */
-		/* margin-top: -120px; */
-	}
-
 	.product-d-details {
 		/* margin: 0px 30px; */
 		margin-left: 2px;
@@ -595,7 +590,7 @@ hr {
 	}
 
 	.product-d-image {
-		width: 85%;
+		width: 100%;
 	}
 }
 
