@@ -1260,6 +1260,13 @@ body {
 	display: flex;
 	justify-content: center;
 }
+.adjust{
+	/* margin-left: 25%; */
+	/* width: 75%; */
+	padding-right:25%;
+	padding-left: 25%;
+	
+}
 
 /* .portfolio .owl-nav{
 	display:none;
@@ -4827,4 +4834,6 @@ body {
 	max-width: 33%;
 	margin-left: 50px;
 } */
+
+
 
